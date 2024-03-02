@@ -226,7 +226,8 @@
             "MIT"
         ],
         "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-        "homepage": "https://github.com/container-interop/container-interop"
+        "homepage": "https://github.com/container-interop/container-interop",
+        "abandoned": "psr/container"
     },
     {
         "name": "doctrine/annotations",
@@ -850,12 +851,12 @@
         "version_normalized": "2.5.6.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/doctrine/doctrine2.git",
+            "url": "https://github.com/doctrine/orm.git",
             "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
+            "url": "https://api.github.com/repos/doctrine/orm/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
             "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b",
             "shasum": ""
         },
@@ -1750,7 +1751,8 @@
         "keywords": [
             "api",
             "email"
-        ]
+        ],
+        "abandoned": "mailchimp/transactional"
     },
     {
         "name": "monolog/monolog",
@@ -2681,7 +2683,8 @@
             "email",
             "mail",
             "mailer"
-        ]
+        ],
+        "abandoned": "symfony/mailer"
     },
     {
         "name": "symfony/console",
@@ -2805,7 +2808,8 @@
             }
         ],
         "description": "Symfony Debug Component",
-        "homepage": "https://symfony.com"
+        "homepage": "https://symfony.com",
+        "abandoned": "symfony/error-handler"
     },
     {
         "name": "symfony/polyfill-mbstring",
@@ -2978,7 +2982,8 @@
         "keywords": [
             "code",
             "zf2"
-        ]
+        ],
+        "abandoned": "laminas/laminas-code"
     },
     {
         "name": "zendframework/zend-eventmanager",
@@ -3034,6 +3039,7 @@
             "eventmanager",
             "events",
             "zf2"
-        ]
+        ],
+        "abandoned": "laminas/laminas-eventmanager"
     }
 ]
